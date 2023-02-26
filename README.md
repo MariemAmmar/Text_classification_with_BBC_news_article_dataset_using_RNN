@@ -7,7 +7,7 @@ After that, the RNN model is built and trained using the training and validation
 
 
 
-# Going Deeper with the code 
+### Going Deeper with the code 
 
 This code reads in a CSV file containing news article text and their corresponding labels (categories), preprocesses the text data by removing stopwords, tokenizes the text data, and pads the tokenized sequences to a fixed length. It then tokenizes the labels and trains a neural network model to predict the label/category of a given news article. The model architecture consists of an embedding layer, a global average pooling layer, a dense layer with ReLU activation, and a final dense layer with a softmax activation.
 
